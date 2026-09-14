@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700;6..12,800&display=swap');
+@import 'tailwindcss';
+
+:root {
+  --background: #f0f6f7;
+  --foreground: #16282c;
+  --card: #ffffff;
+  --card-foreground: #16282c;
+  --primary: #14706b;
+  --primary-foreground: #ffffff;
+  --secondary: #f7fafb;
+  --secondary-foreground: #16282c;
+  --muted: #f7fafb;
+  --muted-foreground: #5e747a;
+  --accent: #14706b;
+  --accent-foreground: #ffffff;
+  --border: #e3ecee;
+  --ring: #14706b;
+  --radius: 12px;
+  --accent-hover: #0f5b57;
+  --accent-subtle: #d9edf0;
+  --surface-raised: #f7fafb;
+  --status-success-bg: #dff3e4;
+  --status-success-text: #2c6b3f;
+  --status-info-bg: #d6eaf5;
+  --status-info-text: #1f5a7a;
+  --status-pending-bg: #edf2f3;
+  --status-pending-text: #5e747a;
+  --status-warning-bg: #fbf0d9;
+  --status-warning-text: #8a6520;
+  --status-danger-bg: #f9e1e1;
+  --status-danger-text: #9a3535;
+  --text-display: 32px;
+  --text-title: 20px;
+  --text-body: 15px;
+  --text-small: 13px;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.dark {
+  --background: #102224;
+  --foreground: #eaf3f3;
+  --card: #183033;
+  --card-foreground: #eaf3f3;
+  --primary: #57aaa4;
+  --primary-foreground: #102224;
+  --secondary: #234246;
+  --secondary-foreground: #eaf3f3;
+  --muted: #193438;
+  --muted-foreground: #b2c7c9;
+  --accent: #57aaa4;
+  --accent-foreground: #102224;
+  --border: #31575a;
+  --ring: #76c4be;
+}
+
+button, input { font: inherit; }

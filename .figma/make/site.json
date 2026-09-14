@@ -1,0 +1,10 @@
+{
+  "description": "A modern, efficient POS system tailored for Indonesian cafes and kiosks enabling fast cashier operations and comprehensive back-office reporting.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
